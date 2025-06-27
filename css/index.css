@@ -135,6 +135,13 @@ header {
 	border-radius: 2px;
 }
 
+/* Add a yellow bar to the left of blockquotes */
+blockquote {
+  border-left: 5px solid #FFD600; /* bright yellow */
+  padding-left: 1em;
+  margin-left: 2em;
+}
+
 /* Prevent visually-hidden skip link fom pushing content around when focused */
 #skip-link.visually-hidden:focus {
 	position: absolute;
