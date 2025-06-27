@@ -1,7 +1,22 @@
 ---
 layout: layouts/base.njk
 ---
-<!-- Delete this block, which will also remove the component CSS from the bundle -->
+<link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+
+<style>
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --pagefind-ui-primary: #eeeeee;
+      --pagefind-ui-text: #eeeeee;
+      --pagefind-ui-background: #152028;
+      --pagefind-ui-border: #152028;
+      --pagefind-ui-tag: #152028;
+    }
+  }
+</style>
+<div id="search" class="search"></div>
+<script src="/_pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search', showImages: false });"></script>
+<!-- Message Block if needed
 <style>{% include "css/message-box.css" %}</style>
 <div class="message-box">
 	<ol>
@@ -11,6 +26,6 @@ layout: layouts/base.njk
 	</ol>
 	<p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
 </div>
-<!-- Stop deleting -->
+ -->
 
 {{ content | safe }}

@@ -3,6 +3,7 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import { execSync } from "child_process";
 
 import pluginFilters from "./_config/filters.js";
 
@@ -122,6 +123,11 @@ export default async function(eleventyConfig) {
 	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+
+	// Self added for search indexing with Pagefind
+	eleventyConfig.on("eleventy.after", () => {
+		execSync(`npx pagefind --source _site --glob "**/*.html"`, { encoding: "utf-8" });
+	});
 };
 
 export const config = {
