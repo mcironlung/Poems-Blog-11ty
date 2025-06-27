@@ -74,7 +74,7 @@ export default async function(eleventyConfig) {
 		metadata: {
 			language: "en",
 			title: "Poems About Everything",
-			subtitle: "This is a longer description about your blog.",
+			subtitle: "Sharing my poetry with you.",
 			base: "https://poemsabouteverything.com",
 			author: {
 				name: "Valerie Ward"
