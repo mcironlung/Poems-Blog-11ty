@@ -1,7 +1,7 @@
 ---
 title: 5 NEW LEFT RIGHT Gift Exchange Poems for Christmas
 description: Below I've provided 5 of my very own Left Right Gift Exchange Poems for Christmas.
-date: 2025-01-01
+date: 2023-12-23
 tags: poems
 featured: false
 author: Valerie Ward

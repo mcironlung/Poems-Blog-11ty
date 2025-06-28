@@ -313,4 +313,4 @@ This poem reflects my deep appreciation for the way our pastor has opened the do
 > Thank you, dear pastor, for every welcome, every grace,  
 > In this sacred space, we've all found our place.
 
-You may also enjoy these [pastor appreciation poems](50-flirty-text-messages-you-can-copy-and-paste.md)">
+You may also enjoy these [pastor appreciation poems](./pastor-appreciation-poems.md)">
