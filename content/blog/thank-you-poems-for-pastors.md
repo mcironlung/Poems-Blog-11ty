@@ -1,12 +1,11 @@
 ---
 author: Valerie Ward
-pubDatetime: 2025-06-24
+date: 2024-03-30
 title: 10 Thank You Poems for Pastors
-slug: thank-you-poems-for-pastors
 featured: false
 draft: false
 description: Are you looking to add a little spark to your texts? These 50 flirty text messages are sure to make a hit with your loved one.
-tags: ["poems"]
+tags: poems
 ---
 ![thank you poems for pastors](../images/thank-you-poems-for-pastors.jpg)
 
