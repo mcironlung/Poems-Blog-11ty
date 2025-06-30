@@ -5,6 +5,7 @@ date: 2023-04-17
 tags: poems
 featured: false
 author: Valerie Ward
+redirect_from: [/poems-about-walking.html, /poems-about-walking]
 ---
 ![poems about walking](../images/poems-about-walking.jpg)
 

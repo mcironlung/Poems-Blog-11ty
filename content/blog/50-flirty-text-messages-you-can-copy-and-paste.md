@@ -5,6 +5,7 @@ date: 2024-10-16
 tags: poems
 featured: false
 author: Valerie Ward
+redirect_from: /50-flirty-text-messages-you-can-copy-and-paste.html
 ---
 ![Flirty text message poems](../images/flirty-text-message-poems.jpeg)
 

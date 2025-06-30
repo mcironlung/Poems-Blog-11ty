@@ -5,6 +5,7 @@ date: 2023-05-24
 tags: poems
 featured: false
 author: Valerie Ward
+redirect_from: [/poems-about-books, /poems-about-books.html]
 ---
 ![poems about books](../images/poems-about-books.jpg)
 

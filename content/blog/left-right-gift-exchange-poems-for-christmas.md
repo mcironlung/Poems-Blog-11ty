@@ -5,6 +5,7 @@ date: 2023-12-23
 tags: poems
 featured: false
 author: Valerie Ward
+redirect_from: /left-right-gift-exchange-poems-for-christmas.html
 ---
 ![left right gift exchange poems for christmas](../images/left-right-gift-exchange-poems-for-christmas.jpg)
 

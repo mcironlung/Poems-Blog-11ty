@@ -5,6 +5,7 @@ date: 2024-03-29
 tags: poems
 featured: false
 author: Valerie Ward
+redirect_from: /poems-about-sailing.html
 ---
 ![poems about sailing](../images/poems-about-sailing.jpg)
 

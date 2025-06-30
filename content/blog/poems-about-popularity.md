@@ -5,6 +5,7 @@ date: 2023-04-10
 tags: poems
 featured: false
 author: Valerie Ward
+redirect_from: /poems-about-popularity.html
 ---
 ![poems about popularity](../images/poems-about-popularity.jpg)
 

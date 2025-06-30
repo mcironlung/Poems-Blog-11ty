@@ -5,6 +5,7 @@ date: 2023-04-14
 tags: poems
 featured: false
 author: Valerie Ward
+redirect_from: /poems-about-justice.html
 ---
 ![poems about justice](../images/poems-about-justice.jpg)
 

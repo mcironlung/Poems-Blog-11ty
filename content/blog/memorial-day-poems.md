@@ -5,6 +5,7 @@ date: 2024-05-27
 tags: poems
 featured: false
 author: Valerie Ward
+redirect_from: /memorial-day-poems.html
 ---
 ![memorial day poems](../images/memorial-day-poems.jpg)
 

@@ -5,6 +5,7 @@ date: 2023-06-25
 tags: poems
 featured: false
 author: Valerie Ward
+redirect_from: /poems-about-days.html
 ---
 ![poems about days](../images/poems-about-days.jpg)
 

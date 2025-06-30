@@ -5,6 +5,7 @@ date: 2023-03-02
 tags: poems
 featured: false
 author: Valerie Ward
+redirect_from: /sand-ceremony-poems.html
 ---
 ![sand ceremony poems](../images/Sand-Ceremony-Poems.jpg)
 

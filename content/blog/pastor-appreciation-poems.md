@@ -5,6 +5,7 @@ date: 2023-04-26
 tags: poems
 featured: false
 author: Valerie Ward
+redirect_from: /pastor-appreciation-poems.html
 ---
 ![pastor appreciation poems](../images/pastor-appreciation-poems.jpg)
 

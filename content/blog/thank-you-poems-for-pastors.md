@@ -6,6 +6,7 @@ featured: false
 draft: false
 description: Are you looking to add a little spark to your texts? These 50 flirty text messages are sure to make a hit with your loved one.
 tags: poems
+redirect_from: [/10-thank-you-poems-for-pastors, /10-thank-you-poems-for-pastors.html]
 ---
 ![thank you poems for pastors](../images/thank-you-poems-for-pastors.jpg)
 

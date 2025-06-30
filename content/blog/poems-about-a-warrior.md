@@ -6,6 +6,7 @@ featured: false
 draft: false
 description: Here you will find ten poems about a warrior with each one focusing on an attribute they embody.
 tags: ["poems"]
+redirect_from: /poems-about-a-warrior.html
 ---
 ![poems about a warrior](../images/poems-about-a-warrior.jpg)
 
