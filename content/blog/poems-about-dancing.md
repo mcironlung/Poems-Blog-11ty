@@ -9,12 +9,9 @@ author: Valerie Ward
 
 Dancing is a universal language that speaks to the soul and ignites a sense of joy.  It is both personal expression and a shared celebration, connecting us to music, memory, and each other.  
 
-Whether performed in solitude or on a crowded floor, dance has the power to uplift the spirit and free the mind.  
-Poetry about dancing magnifies these feelings, offering vivid glimpses of twirling skirts, rhythmic footsteps, and quiet moments of stillness.  
+Whether performed in solitude or on a crowded floor, dance has the power to uplift the spirit and free the mind. Poetry about dancing magnifies these feelings, offering vivid glimpses of twirling skirts, rhythmic footsteps, and quiet moments of stillness.  
 
-Each poem becomes a snapshot of motion frozen in time, a testament to the beauty of bodies in motion.  
-Through verse, we can relive the passion, exhilaration, and tenderness that dance inspires.  
-Prepare to step into a world where words and movement entwine.
+Each poem becomes a snapshot of motion frozen in time, a testament to the beauty of bodies in motion.  Through verse, we can relive the passion, exhilaration, and tenderness that dance inspires.  Prepare to step into a world where words and movement entwine.
 
 ## 5 Poems about Dancing
 
