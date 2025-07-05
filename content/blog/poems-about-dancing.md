@@ -3,10 +3,8 @@ title: 5 Poems About Dancing
 description: Discover this vibrant collection of poems that celebrate the art of dancing. From graceful waltzes to carefree spins, these verses capture the energy, emotion, and timeless beauty of movement. Let your imagination sway to the rhythm of each line.
 date: 2025-06-20
 author: Valerie Ward
+image: /images/poems%20about%20dancing.jpeg
 ---
-
-![Poems About Dancing](../images/poems%20about%20dancing.jpeg)
-
 Dancing is a universal language that speaks to the soul and ignites a sense of joy.  It is both personal expression and a shared celebration, connecting us to music, memory, and each other.  
 
 Whether performed in solitude or on a crowded floor, dance has the power to uplift the spirit and free the mind. Poetry about dancing magnifies these feelings, offering vivid glimpses of twirling skirts, rhythmic footsteps, and quiet moments of stillness.  

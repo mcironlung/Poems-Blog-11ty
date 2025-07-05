@@ -6,9 +6,8 @@ tags: poems
 featured: false
 author: Valerie Ward
 redirect_from: /poems-about-popularity.html
+image: /images/poems-about-popularity.jpg
 ---
-![poems about popularity](../images/poems-about-popularity.jpg)
-
 Popularity is a concept that is introduced to us at a young age and seems to follow us throughout life whether we strive for it or not. From [Shakespeare](https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/william-shakespeare/william-shakespeare-biography/) to modern-day Instagram influencers, the allure of being popular has remained constant.
 
 In this blog post, we will dive into the pros and cons of popularity and feature poems about popularity for each of them.  Whether you're a social butterfly or an introvert, these poems about popularity are sure to resonate with you and provide insight into the ever-shifting dynamics of popularity.

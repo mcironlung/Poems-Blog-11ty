@@ -6,8 +6,8 @@ tags: poems
 featured: false
 author: Valerie Ward
 redirect_from: poems-about-coffee.html
+image: /images/poems-about-coffee.jpg
 ---
-![poems about coffee](../images/poems-about-coffee.jpg)
 
 I don't know about you, but for me, coffee is more than just a beverage—it's a daily ritual that helps me feel grounded and connected to myself and the world around me.
 

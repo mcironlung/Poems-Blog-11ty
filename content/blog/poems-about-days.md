@@ -6,9 +6,8 @@ tags: poems
 featured: false
 author: Valerie Ward
 redirect_from: /poems-about-days.html
+image: /images/poems-about-days.jpg
 ---
-![poems about days](../images/poems-about-days.jpg)
-
 As I get older I find myself reflecting on the importance of each day and the passage of time.  With each sunrise, we have an opportunity for a fresh start with a blank canvas.  What will you do with your limited time today?
 
 It's so easy to take a day for granted, but our days are delicate and something to be cherished.  Each day holds an immeasurable value that writing poems about days would be an eternal task.

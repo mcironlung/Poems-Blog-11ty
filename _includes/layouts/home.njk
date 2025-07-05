@@ -1,30 +1,34 @@
 ---
 layout: layouts/base.njk
+title: Home Test
+note: This is not used at the moment
 ---
+
 <link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
 <style>
   @media (prefers-color-scheme: dark) {
     :root {
-      --pagefind-ui-primary: #eeeeee;
-      --pagefind-ui-text: #eeeeee;
-      --pagefind-ui-background: #152028;
-      --pagefind-ui-border: #152028;
-      --pagefind-ui-tag: #152028;
+      --pagefind-ui-primary: #4ea6ff;
+      --pagefind-ui-text: #e0e0e0;
+      --pagefind-ui-background: #121212;
+      --pagefind-ui-border: #333;
+      --pagefind-ui-tag: #333;
     }
   }
 </style>
 <div id="search" class="search"></div>
 <script src="/_pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search', showImages: false });"></script>
-<!-- Message Block if needed
-<style>{% include "css/message-box.css" %}</style>
-<div class="message-box">
-	<ol>
-		<li>Edit <code>_data/metadata.js</code> with your blog’s information.</li>
-		<li>(Optional) Edit <code>eleventy.config.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-		<li>Delete this message from <code>_includes/layouts/home.njk</code>.</li>
-	</ol>
-	<p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
-</div>
- -->
 
-{{ content | safe }}
+
+<section class="post-grid">
+{% for post in collections.posts | reverse %}
+  <article class="post-card">
+    <a href="{{ post.url }}">
+      {% if post.data.image %}
+      <img src="{{ post.data.image }}" alt="{{ post.data.title }}">
+      {% endif %}
+      <h2>{{ post.data.title }}</h2>
+    </a>
+  </article>
+{% endfor %}
+</section>

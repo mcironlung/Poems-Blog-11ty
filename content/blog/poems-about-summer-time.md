@@ -3,10 +3,11 @@ title: 5 Poems About Summer Time
 description: Summer Time is a season that feels like a living memory—warmth you can feel long after the sun has set. These poems celebrate everything that makes summer unforgettable, from golden afternoons to moonlit adventures. Each verse brings a different perspective, offering a fresh look at the season’s beauty and nostalgia.
 date: 2025-06-17
 author: Valerie Ward
+image: /images/poems%20about%20summer%20time%20Large.jpeg
 ---
-![Poems About Summer Time](../images/poems%20about%20summer%20time%20Large.jpeg)
+Summer Time has a way of expanding our world and our hearts. The season calls us outdoors to savor every moment of sunlight and every breeze that cools our skin. It’s the taste of ripe fruit, the echo of laughter drifting over the grass, the hush of twilight settling in. 
 
-Summer Time has a way of expanding our world and our hearts. The season calls us outdoors to savor every moment of sunlight and every breeze that cools our skin. It’s the taste of ripe fruit, the echo of laughter drifting over the grass, the hush of twilight settling in. Poetry captures these fleeting impressions and transforms them into something we can return to again and again. Through rhyme and free verse, playful forms and reflective tones, each poem becomes a keepsake of warmth. As you explore this collection, may you find yourself transported back to your favorite summer memories.
+Poetry captures these fleeting impressions and transforms them into something we can return to again and again. Through rhyme and free verse, playful forms and reflective tones, each poem becomes a keepsake of warmth. As you explore this collection, may you find yourself transported back to your favorite summer memories.
 
 ## 5 Poems about Summer Time
 

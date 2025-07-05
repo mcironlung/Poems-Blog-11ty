@@ -6,8 +6,8 @@ tags: poems
 featured: false
 author: Valerie Ward
 redirect_from: /left-right-gift-exchange-poems-for-christmas.html
+image: /images/left-right-gift-exchange-poems-for-christmas.jpg
 ---
-![left right gift exchange poems for christmas](../images/left-right-gift-exchange-poems-for-christmas.jpg)
 
 Christmas is my most favorite time of year!  One thing my family has always done was play a left right Christmas game otherwise called the white elephant gift exchange.  This type of gift passing game is a great way for families or large groups of friends to exchange gifts in a fun way.  
 

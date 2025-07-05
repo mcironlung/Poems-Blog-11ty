@@ -4,6 +4,8 @@ import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import { execSync } from "child_process";
+// Add Embed Everything plugin
+import embeds from "eleventy-plugin-embed-everything";
 
 import pluginFilters from "./_config/filters.js";
 
@@ -56,6 +58,9 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(HtmlBasePlugin);
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
+
+	// Add Embed Everything plugin
+  eleventyConfig.addPlugin(embeds);
 
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom", // or "rss", "json"
@@ -116,6 +121,59 @@ export default async function(eleventyConfig) {
 		return (new Date()).toISOString();
 	});
 
+
+
+// Your existing relatedPosts filter
+eleventyConfig.addFilter("relatedPosts", function(posts, currentTags, currentUrl, limit = 4) {
+  // Build list of posts with their matching score
+  let scoredPosts = posts
+    .filter(post => post.url !== currentUrl)
+    .map(post => {
+      const postTags = post.data.tags || [];
+      const matches = postTags.filter(tag => currentTags?.includes(tag));
+      return {
+        post,
+        score: matches.length
+      };
+    })
+    .filter(item => item.score > 0);
+
+  // If no matches, return empty array
+  if(scoredPosts.length === 0) {
+    return [];
+  }
+
+  // Group posts by score
+  const scoreGroups = {};
+  for (const item of scoredPosts) {
+    if (!scoreGroups[item.score]) {
+      scoreGroups[item.score] = [];
+    }
+    scoreGroups[item.score].push(item.post);
+  }
+
+  // Sort scores descending
+  const sortedScores = Object.keys(scoreGroups)
+    .map(s => parseInt(s))
+    .sort((a,b) => b - a);
+
+  // Collect posts randomly within each score group
+  const result = [];
+  for (const score of sortedScores) {
+    const group = scoreGroups[score];
+    // Randomize this group
+    const shuffled = group.sort(() => Math.random() - 0.5);
+    for (const p of shuffled) {
+      result.push(p);
+      if (result.length >= limit) {
+        return result;
+      }
+    }
+  }
+
+  return result;
+});
+
 	// Features to make your build faster (when you need them)
 
 	// If your passthrough copy gets heavy and cumbersome, add this line
@@ -158,6 +216,8 @@ export const config = {
 	// -----------------------------------------------------------------
 	// Optional items:
 	// -----------------------------------------------------------------
+
+	
 
 	// If your site deploys to a subdirectory, change `pathPrefix`.
 	// Read more: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix

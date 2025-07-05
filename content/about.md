@@ -1,8 +1,6 @@
----js
-const eleventyNavigation = {
-	key: "About",
-	order: 3
-};
+---
+layout: layouts/base.njk
+title: About Valerie Ward's Poems
 ---
 # About
 

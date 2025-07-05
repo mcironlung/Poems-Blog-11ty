@@ -3,10 +3,8 @@ title: 10 Prayer Card Poems
 description: Explore this heartfelt collection of poems inspired by the quiet power of prayer cards. From comforting verses to words of remembrance, each poem is crafted to bring solace, hope, and reflection. Let these lines remind you of faith’s enduring light.
 date: 2025-06-29
 author: Valerie Ward
+image: /images/prayer%20card%20poems%20Large.jpeg
 ---
-
-![Prayer Card Poems](../images/prayer%20card%20poems%20Large.jpeg)
-
 Prayer card poems carry a unique and tender purpose, offering words that uplift in moments of need.  They slip into pockets and wallets, small reminders of love, faith, and consolation.  
 
 Whether read in solitude or shared during gatherings, these verses hold the power to heal and inspire.  Poetry on prayer cards often captures life’s most profound emotions in just a few lines.  

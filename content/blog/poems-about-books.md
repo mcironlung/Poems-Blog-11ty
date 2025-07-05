@@ -6,8 +6,8 @@ tags: poems
 featured: false
 author: Valerie Ward
 redirect_from: [/poems-about-books, /poems-about-books.html]
+image: /images/poems-about-books.jpg
 ---
-![poems about books](../images/poems-about-books.jpg)
 
 As you know, I love writing poems.  Today, I want to share with you another passion of mine and that is reading books.  Below I've even merged both my loves and written some poems about books that express how I feel about them.
 

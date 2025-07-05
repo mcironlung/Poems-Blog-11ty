@@ -3,11 +3,11 @@ title: 7 Poems for Cancer Patients
 description: These 7 heartfelt poems for cancer patients offer comfort, hope, and strength for those facing one of life’s most difficult journeys. Whether you are walking this road yourself or supporting someone who is, these words are written to lift, honor, and encourage.
 date: 2025-06-30
 author: Valerie Ward
+image: /images/poems%20for%20cancer%20patients.jpg
 ---
+Poems for cancer patients resonate deeply because they reflect a journey that is both personal and universally understood. Cancer changes everything—perspective, priorities, and the shape of each day. But in the middle of this challenge, there is beauty in the way people rise, love fiercely, and hold on. 
 
-![Poems for Cancer Patients](../images/poems%20for%20cancer%20patients.jpg)
-
-Poems for cancer patients resonate deeply because they reflect a journey that is both personal and universally understood. Cancer changes everything—perspective, priorities, and the shape of each day. But in the middle of this challenge, there is beauty in the way people rise, love fiercely, and hold on. Poetry becomes a bridge between silence and speech, a way to express fear, faith, and perseverance. It gives voice to those who are fighting, and to those who walk beside them. Whether you're a patient, caregiver, or friend, these poems offer a space to feel seen, supported, and strengthened.
+Poetry becomes a bridge between silence and speech, a way to express fear, faith, and perseverance. It gives voice to those who are fighting, and to those who walk beside them. Whether you're a patient, caregiver, or friend, these poems offer a space to feel seen, supported, and strengthened.
 
 ## 7 Poems for Cancer Patients
 

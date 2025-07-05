@@ -6,6 +6,27 @@
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+		{% if image %}
+  		<meta property="og:image" content="{{ image | url }}">
+  		<meta name="twitter:card" content="summary_large_image">
+		{% endif %}
+		<meta property="og:title" content="{{ title }}">
+		<meta property="og:description" content="{{ description | default('Read this poem.') }}">
+		<meta property="og:url" content="{{ page.url | url }}">
+		<meta property="og:type" content="article">
+		<link rel="icon" href="/images/Poems-Icon.png" type="image/png">
+		<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const links = document.querySelectorAll('a[href^="http"]');
+  links.forEach(link => {
+    // Skip links to your own domain
+    if (!link.href.includes(location.hostname)) {
+      link.setAttribute("rel", "nofollow");
+      link.setAttribute("target", "_blank");
+    }
+  });
+});
+</script>
 
 		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
 		{#- <meta name="generator" content="{{ eleventy.generator }}"> #}
@@ -26,6 +47,7 @@
 
 		{#- Add the contents of a file to the bundle #}
 		<style>{% include "css/index.css" %}</style>
+		<style>{% include "css/custom.css" %}</style>
 
 		{#- Or you can add from node_modules #}
 		{# <style>{% include "node_modules/something.css" %}</style> #}
@@ -43,23 +65,21 @@
 		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link">{{ metadata.title }}</a>
+			<a href="/" class="home-link"><img src="/images/poems about everything logo.svg" alt="Poems About Everything"></a>
 
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
-				{%- for entry in collections.all | eleventyNavigation %}
-					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-				{%- endfor %}
+				<li class="nav-item"><a href="/">Home</a></li>
+				<li class="nav-item"><a href="/about/">About</a></li>
+				<li class="nav-item"><a href="/blog/">Poems</a></li>
 				</ul>
 			</nav>
 		</header>
 
 		<main id="main">
-			<heading-anchors>
-				{{ content | safe }}
-			</heading-anchors>
+			{{ content | safe }}
 		</main>
 
 		<footer>

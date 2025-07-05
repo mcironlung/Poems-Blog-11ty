@@ -1,10 +1,31 @@
----js
-const eleventyNavigation = {
-	key: "Archive",
-	order: 2
-};
+---
+layout: layouts/base.njk
+title: Archive of Valerie's poetry
 ---
 <h1>Archive</h1>
-
-{% set postslist = collections.posts %}
-{% include "postslist.njk" %}
+<link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+<style>
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --pagefind-ui-primary: #4ea6ff;
+      --pagefind-ui-text: #e0e0e0;
+      --pagefind-ui-background: #121212;
+      --pagefind-ui-border: #333;
+      --pagefind-ui-tag: #333;
+    }
+  }
+</style>
+<div id="search" class="search"></div>
+<script src="/_pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search', showImages: false });"></script>
+<section class="post-grid">
+  {% for post in collections.posts | reverse %}
+    <article class="post-card">
+      <a href="{{ post.url }}">
+        {% if post.data.image %}
+        <img src="{{ post.data.image }}" alt="{{ post.data.title }}">
+        {% endif %}
+        <h2>{{ post.data.title }}</h2>
+      </a>
+    </article>
+  {% endfor %}
+</section>

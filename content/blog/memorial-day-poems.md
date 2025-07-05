@@ -6,8 +6,8 @@ tags: poems
 featured: false
 author: Valerie Ward
 redirect_from: /memorial-day-poems.html
+image: /images/memorial-day-poems.jpg
 ---
-![memorial day poems](../images/memorial-day-poems.jpg)
 
 On a quiet morning, as the first light of dawn creeps over the rugged Montana landscape, I find myself perched on the old wooden rocking chair that overlooks the sprawling fields behind our home.
 

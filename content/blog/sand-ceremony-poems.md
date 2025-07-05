@@ -6,9 +6,8 @@ tags: poems
 featured: false
 author: Valerie Ward
 redirect_from: /sand-ceremony-poems.html
+image: /images/Sand-Ceremony-Poems.jpg
 ---
-![sand ceremony poems](../images/Sand-Ceremony-Poems.jpg)
-
 Within every important ritual, there is a sign, an action that quietly but deeply expresses the true meaning of the event. The sand ceremony is particularly notable as it presents a striking visual metaphor; it's like colors and particles moving together to represent coming together, affection, and lives merging.
 
 > Grains blend, hearts unite,  

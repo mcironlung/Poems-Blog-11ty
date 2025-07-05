@@ -3,11 +3,11 @@ title: 7 Poems About Soccer
 description: Soccer is more than a game—it’s passion in motion, a dance of strategy and instinct that unites players and fans alike. This collection celebrates the beauty, tension, and joy that arise every time a ball meets the pitch. Let these poems take you into the heart of the world’s most beloved sport.
 date: 2025-06-08
 author: Valerie Ward
+image: /images/poems%20about%20soccer%20Large.jpeg
 ---
+Soccer has a language all its own—spoken in swift passes, sudden sprints, and the roar that erupts when the net ripples with a goal. It brings people together across cultures and generations, offering a sense of belonging and purpose that transcends the field. The sport is as much about heart as it is about skill, where every touch of the ball can become a memory. 
 
-![Poems About Soccer](../images/poems%20about%20soccer%20Large.jpeg)
-
-Soccer has a language all its own—spoken in swift passes, sudden sprints, and the roar that erupts when the net ripples with a goal. It brings people together across cultures and generations, offering a sense of belonging and purpose that transcends the field. The sport is as much about heart as it is about skill, where every touch of the ball can become a memory. Poetry can capture this magic, freezing the blur of movement into moments we can savor again and again. From the thrill of the kickoff to the quiet after the whistle, soccer gives us countless stories worth telling. These poems honor that spirit of competition, camaraderie, and hope. May they remind you why the game stirs something deep inside us all.
+Poetry can capture this magic, freezing the blur of movement into moments we can savor again and again. From the thrill of the kickoff to the quiet after the whistle, soccer gives us countless stories worth telling. These poems honor that spirit of competition, camaraderie, and hope. May they remind you why the game stirs something deep inside us all.
 
 ## 5 Poems about Soccer
 

@@ -4,8 +4,8 @@ description: Here you will find ten poems about a warrior with each one focusing
 date: 2023-04-23
 author: Valerie Ward
 redirect_from: /poems-about-a-warrior.html
+image: /images/poems-about-a-warrior.jpg
 ---
-![poems about a warrior](../images/poems-about-a-warrior.jpg)
 
 Warriors are respected and powerful individuals often associated with courage, strength, and honor. Throughout history, the warrior represents a way of life that involves discipline, sacrifice, and the pursuit of excellence. The warrior also embodies the idea of protection, as they're often tasked with defending their country against external threats.
 

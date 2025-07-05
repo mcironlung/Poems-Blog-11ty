@@ -6,9 +6,8 @@ tags: poems
 featured: false
 author: Valerie Ward
 redirect_from: [/poems-about-walking.html, /poems-about-walking]
+image: /images/poems-about-walking.jpg
 ---
-![poems about walking](../images/poems-about-walking.jpg)
-
 I absolutely love walking each morning! I enjoy the fresh air filling my lungs and the gentle breeze on my skin. It serves as a moment of quiet reflection before the hustle and bustle of my day begins. I take in my surroundings—the chirping birds, the rustling leaves, the soft glow of the rising sun—and it all feels like a gift.
 
 ## A few of my favorite poems about walking
@@ -243,7 +242,7 @@ Through the years I have written a few poems about walking. These are my favorit
 > Footsteps tread upon the earth,  
 > Walking brings peace home.
 
-### 5 Benefits of Walking
+###  5 Benefits of Walking
 ----------------------
 
 Now that you've enjoyed some poems about walking, let me tell you a few of the reasons why I enjoy daily walks.  Maybe this will encourage you to take your first step.

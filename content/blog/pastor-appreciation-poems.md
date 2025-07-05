@@ -6,8 +6,8 @@ tags: poems
 featured: false
 author: Valerie Ward
 redirect_from: /pastor-appreciation-poems.html
+image: /images/pastor-appreciation-poems.jpg
 ---
-![pastor appreciation poems](../images/pastor-appreciation-poems.jpg)
 
 Like many, I grew up attending church services each Sunday.  It was a cornerstone of my childhood.  I made many friends by attending Sunday School, [youth camps](https://christiancamppro.com/youth-camp-themes/), and now small groups.
 

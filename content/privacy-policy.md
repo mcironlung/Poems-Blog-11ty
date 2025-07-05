@@ -1,4 +1,7 @@
-
+---
+layout: layouts/base.njk
+title: Privacy Policy
+---
 # Privacy Policy for Poems About Everything
 
 (poemsabouteverything.com)

@@ -6,9 +6,8 @@ tags: poems
 featured: false
 author: Valerie Ward
 redirect_from: /poems-about-justice.html
+image: /images/poems-about-justice.jpg
 ---
-![poems about justice](../images/poems-about-justice.jpg)
-
 In the US, we are fortunate to have a [strong justice system](https://www.uscourts.gov/about-federal-courts/court-role-and-structure). Its aim is to maintain equality and fairness for all.
 
 Justice is all about treating people with respect and fairness no matter their background. By seeing people as innocent until proven guilty we afford the opportunity to defend ourselves.

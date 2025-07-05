@@ -6,8 +6,8 @@ tags: poems
 featured: false
 author: Valerie Ward
 redirect_from: /poems-about-sailing.html
+image: /images/poems-about-sailing.jpg
 ---
-![poems about sailing](../images/poems-about-sailing.jpg)
 
 Sailing, for me, embodies a freedom that's hard to find on solid ground. It's as if, with every voyage, I shed the weight of the world and become a true sailor, heart bound to the endless blue.
 

@@ -1,31 +1,39 @@
 ---
 layout: layouts/base.njk
 ---
-{# Only include the syntax highlighter CSS on blog posts, included with the CSS per-page bundle #}
-<style>{% include "node_modules/prismjs/themes/prism-okaidia.css" %}</style>
-<style>{% include "css/prism-diff.css" %}</style>
-<h1>{{ title }}</h1>
-<!-- Commented out metadata
-<ul class="post-metadata">
-	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
-	{%- for tag in tags | filterTagList %}
-	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
-	{%- endfor %}
-</ul>
--->
-<!-- This searches articles -->
-<article data-pagefind-body>
+<article class="post">
+  <h1>{{ title }}</h1>
+  {% if image %}
+  <img src="{{ image }}" alt="{{ title }}">
+  {% endif %}
+  <div class="content">
     {{ content | safe }}
-</article>
+  </div>
+<!-- 
+  {% if tags %}
+  <ul class="tags">
+    {% for tag in tags %}
+    <li><a href="/tags/{{ tag | slugify }}/">{{ tag }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %} -->
 
-{%- if collections.posts %}
-{%- set previousPost = collections.posts | getPreviousCollectionItem %}
-{%- set nextPost = collections.posts | getNextCollectionItem %}
-{%- if nextPost or previousPost %}
-<ul class="links-nextprev">
-	{%- if previousPost %}<li class="links-nextprev-prev">← Previous<br> <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-	{%- if nextPost %}<li class="links-nextprev-next">Next →<br><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-</ul>
-{%- endif %}
-{%- endif %}
+  {% set related = collections.posts | relatedPosts(tags, page.url, 4) %}
+  {% if related.length %}
+  <div class="related-posts">
+    <h2>Related Posts</h2>
+    <div class="post-grid">
+      {% for post in related %}
+      <article class="post-card">
+        <a href="{{ post.url }}">
+          {% if post.data.image %}
+          <img src="{{ post.data.image }}" alt="{{ post.data.title }}">
+          {% endif %}
+          <h3>{{ post.data.title }}</h3>
+        </a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</article>

@@ -2,12 +2,12 @@
 title: 50 Flirty Text Messages You Can Copy & Paste!
 description: Are you looking to add a little spark to your texts? These 50 flirty text messages are sure to make a hit with your loved one.
 date: 2024-10-16
-tags: poems
+tags: ["poems"]
 featured: false
 author: Valerie Ward
 redirect_from: /50-flirty-text-messages-you-can-copy-and-paste.html
+image: /images/flirty-text-message-poems.jpeg
 ---
-![Flirty text message poems](../images/flirty-text-message-poems.jpeg)
 
 Are you looking to add a little spark to your texts? These 50 flirty text messages are sure to make a hit with your loved one. They say everything you’re feeling, without saying too much.
 
