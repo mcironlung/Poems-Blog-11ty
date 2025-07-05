@@ -20,24 +20,6 @@
 	--syntax-tab-size: 2;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* Grays for text and borders */
-    --color-gray-20: #333;
-    --color-gray-50: #555;
-    --color-gray-90: #eee;
-
-    /* Background & text */
-    --background-color: #121212; /* deep black but not pure black */
-    --text-color: #e0e0e0; /* soft white */
-
-    /* Links */
-    --text-color-link: #4ea6ff;
-    --text-color-link-active: #90c5ff;
-    --text-color-link-visited: #b0a6ff;
-  }
-}
-
 /* Global stylesheet */
 * {
 	box-sizing: border-box;
